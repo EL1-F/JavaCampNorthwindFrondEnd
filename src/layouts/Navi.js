@@ -1,6 +1,6 @@
 import React , {useState}from "react";
 import CartSummary from "./CartSummary.js";
-import { Button, Container, Menu } from "semantic-ui-react";
+import {  Container, Menu } from "semantic-ui-react";
 import SignedOut from "./SignedOut.jsx";
 import SignedIn from "./SignedIn.jsx";
 import { useHistory } from "react-router";

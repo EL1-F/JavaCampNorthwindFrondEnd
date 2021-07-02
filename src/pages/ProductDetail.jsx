@@ -12,7 +12,7 @@ export default function ProductDetail() {
   useEffect(()=>{
      let productservice =new ProductService()
      productservice.getByProductName(name).then(result=>setProduct(result.data.data))
-  },[])
+  },[name])
   
   return (
     <div>
